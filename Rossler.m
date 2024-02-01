@@ -17,9 +17,9 @@ f = @(t,x) [-x(2)-x(3)+E*cos(v*t); x(1)+a*x(2); b+x(3)*(x(1)-c)];  % Rossler sys
 
 k = 5000;       % k+1 is the number of columns in the solution matrix M
 dt = 0.05; time = 0; 
-tmax = 2; p = 0;
+tmax = 4; p = 0;
 x(:, 1) = x0 (:, 1); t(1) = 0;
-while (time<tmax)
+%while (time<tmax)
     n = 2^p;
     h = dt/n;
     t0 = 0;
