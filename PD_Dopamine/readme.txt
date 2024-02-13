@@ -1,6 +1,6 @@
 The codes are written in MATLAB as an implementation of the study done by V.S. Chakravarthy et al. [1] of the handwriting analysis of Parkinson's patients by computing a model of the Basal Ganglia. Parameters like Dopamine (DA), parameter spacing (rad), and epsilon (positive bias) are controlled to obtain the final graph. 
 
-The work is expected to show the increase in synchronization of the neuron spiking as DA values are decreased, representing Parkinsonian conditions and vice-versa. 
+The work is expected to show the increase in synchronization of the neuron spiking as DA values are decreased, representing Parkinsonian conditions and vice-versa. Additionally, three regimes (unsynchronized, traveling waves and synchronized clusters) should be observed as eps increases from 0.0 to 0.7. 
 
 Files sim_stn_gpe executes the other files attached as functions called within the initial file. Parameters can be altered through the same file as well.
 
