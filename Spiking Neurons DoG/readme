@@ -1,1 +1,8 @@
+The final code used the difference of Gaussians instead of a an inverted Gaussian function to give a more positive bias
+at the edges. Two parameters, A and sigma, must be kept constant while varying epsilon to change synchronism, and a minor 
+increase in rad can help achieve synch.
 
+The controller has added another 'proportional feedback' along with the earlier integral. Ida multiplier and error 
+multiplier is expected to be kept at smaller values. 
+
+Epsilon is not subtracted in the weights calculation, as done previously, but multiplied instead. 
