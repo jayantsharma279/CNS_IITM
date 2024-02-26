@@ -1,0 +1,30 @@
+n : 20 # No of neurons
+
+# Lat weights
+rad : 3
+A : 0.0001
+ep : 0.0
+
+#A1 : 2
+#A2 : 1.5
+#sigma1 : 1.5
+#sigma2 : 2
+#epsilon : 0.1
+#rad : 3
+
+# STN-GPe params
+lambda_gpe : 2 # parameter for u_gpe
+A_gpe : 0.0 # input to GPe weight
+tau_gpe : 1 # Time const
+tau_stn : 2 # Time const
+I_DAmultiplier : 0.001
+p_gain : 0.0002 #0.0001
+
+# Feedback loop
+tau : 1 #0.5 #1
+lambda_g : 10
+DA : 200
+
+# Time and dt
+time : 5000
+dt : 0.1
